@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , "san-serif";
+}
+body{
+   background-color: blueviolet;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    color: white;
+    font-size: 2em;
+    user-select: none;
+
+}
+
+.navbar a {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.navbar .login-btn{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    font-size: 1em;
+    color: white;
+    font-weight: 570;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.navbar .login-btn:hover{
+    background: white;
+    color: #162938;
+
+}
+
+.wraper{
+    width: 375px;
+    height: 450px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #162938;
+    display: flex;
+    align-items: center;
+    background-image: url("");
+    justify-content: center;
+    backdrop-filter: blur(90%);
+    position: relative;
+    overflow: hidden;
+    transform: scale(0);
+
+}
+.active{
+    transform: scale(1);
+}
+
+.wraper .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    background-color: #162938;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.icon span{
+    width: 5px;
+}
+.icon input{
+width: 90%;
+    background: transparent;
+    background-color: none;
+    outline: none;
+    outline-color: transparent;
+    border: none;
+    height: 100%;
+}
+.box-input2{
+    padding-top: 10px;
+}
+
+.icon{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    border-bottom: 3px solid #162938;
+
+}
+.remember{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox input{
+    width: 17px;
+    accent-color: #162938;
+    border: 1px solid black;
+}
+.checkbox label{
+    font-size: 15px;
+}
+
+.remember a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #162938;
+    text-align: center;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.wraper h2{
+    margin-bottom: 10px;
+    left: 0;
+}
+
+.signup{
+  margin-top: 50px;
+}
+
+.signup a{
+    text-decoration: none;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}
